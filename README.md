@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/ollin18/LetMeUseIt.jl.svg?branch=master)](https://travis-ci.com/ollin18/LetMeUseIt.jl)
+
 **LetMeUseIt** is a extremely minimalist package that has the sole purpose of handling your scrip and Dockerfiles dependencies in an clean and easy way.
 
 No more running scripts like:
