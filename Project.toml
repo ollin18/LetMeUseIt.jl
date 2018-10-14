@@ -1,0 +1,7 @@
+name = "LetMeUseIt"
+uuid = "7765cef8-cf45-11e8-07e7-f94e0c9d4aa8"
+authors = ["Ollin Demian <ollin.langle@ciencias.unam.mx>"]
+version = "0.1.0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
