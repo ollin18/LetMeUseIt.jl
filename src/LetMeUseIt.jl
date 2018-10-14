@@ -11,4 +11,5 @@ module LetMeUseIt
         for package ∈ packages
             @eval using $package
         end
+    end
 end # module
