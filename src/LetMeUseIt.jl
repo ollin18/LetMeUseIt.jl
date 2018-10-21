@@ -8,7 +8,7 @@ module LetMeUseIt
         uninstalled = setdiff(strpackages,installed)
 
         map(Pkg.add,uninstalled)
-        for package ∈ packages
+        for package ∈ list
             @eval using $package
         end
     end
