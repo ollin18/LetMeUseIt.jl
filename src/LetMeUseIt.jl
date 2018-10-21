@@ -1,6 +1,6 @@
 module LetMeUseIt
-
     using Pkg
+    export useit
 
     function useit(list::Array{Symbol})
         installed = [key for key in keys(Pkg.installed())]
@@ -13,5 +13,4 @@ module LetMeUseIt
         end
     end
 
-    export useit
 end # module
