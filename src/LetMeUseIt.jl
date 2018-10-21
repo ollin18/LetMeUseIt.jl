@@ -12,4 +12,6 @@ module LetMeUseIt
             @eval using $package
         end
     end
+
+    export useit
 end # module
